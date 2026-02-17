@@ -1,0 +1,15 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# ML Dependencies - Fixed versions
+transformers==4.36.0
+torch==2.1.2
+torchvision==0.16.2
+Pillow==10.1.0
+
+# Face recognition (optional - comment out if issues)
+facenet-pytorch==2.5.3
+
+# Don't install tensorflow - causes conflicts
